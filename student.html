@@ -10,16 +10,16 @@
 </head>
 
 <body>
-    <div id="non" align="center"><label for="css">Welcome <input type="text"> </label></div>
+    <div id="non" align="center"><label for="css">Welcome </label></div>
     <br><br><br><br>
     <div class="head" align="center">Student details:</div><br>
 
-    <form class="maindiv" action="/" method="post" align="center">
-        <div class="score">Student Name:<input type="text"></div><br>
-        <div class="score">Student ID:<input type="text"></div><br>
-        <div class="score">Student course:<input type="text"></div><br>
-        <div class="score">Sudent Year:<input type="text"></div><br>
-        <div class="score">Attendance:<input type="text"></div><br>
+    <form class="maindiv" action="/student" method="post" align="center">
+        <div class="score">Student Name:<input type="text" name="name"></div><br>
+        <div class="score">Student ID:<input type="text" name="id"></div><br>
+        <div class="score">Sudent Performance:<input type="text" name="performance"></div><br>
+        <div class="score">Attendance:<input type="text" name="attendance"></div><br>
+        <input type="submit" value="submit">
     </form>
 
 
