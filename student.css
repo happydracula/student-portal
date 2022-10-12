@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(122, 146, 168);
+}
+
+label{
+    font-size: 2em ;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.score{
+    border: 2px black;
+    width: 50%;
+    display: block;
+   
+
+}
+
+.maindiv{
+    font-size: 30px;
+    border: 2px black;
+    
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+input{
+    transform: scale(80%);
+
+}
+
+.head{
+    font-size: 40px;
+}
+
